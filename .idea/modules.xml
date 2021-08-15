@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Flashcards_Kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/Flashcards_Kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards_Kotlin.Flashcards-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards_Kotlin.Flashcards-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards_Kotlin.Flashcards-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards_Kotlin.Flashcards-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards_Kotlin.Flashcards-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Flashcards/task/Flashcards_Kotlin.Flashcards-task.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Flashcards_Kotlin.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Flashcards_Kotlin.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Flashcards_Kotlin.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Flashcards_Kotlin.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Flashcards_Kotlin.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Flashcards_Kotlin.util.test.iml" />
+    </modules>
+  </component>
+</project>

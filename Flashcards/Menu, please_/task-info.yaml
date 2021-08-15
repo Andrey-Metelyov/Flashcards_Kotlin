@@ -410,6 +410,26 @@ files:
     Abuja\",\n                \"Berlin\"\n        );\n    }\n    \n}\n\n\n\n\n\n\n\
     \n\n\n\n\n"
   learner_created: false
+- name: src/flashcards/Card.kt
+  visible: true
+  text: |-
+    package flashcards
+
+    data class Card(val front: String, val back: String) {
+        fun print() {
+            println("Card:")
+            println(front)
+            println("Definition:")
+            println(back)
+        }
+    }
+  learner_created: true
+- name: cards.db
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/83/stages/461/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 15 Aug 2021 06:26:02 UTC
+record: 5

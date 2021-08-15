@@ -1202,6 +1202,25 @@ files:
 
 
   learner_created: false
+- name: src/flashcards/Card.kt
+  visible: true
+  text: |-
+    package flashcards
+
+    import java.io.Serializable
+
+    data class Card(val front: String, val back: String, var mistakes: Int = 0): Serializable {
+        fun print() {
+            println("Card:")
+            println(front)
+            println("Definition:")
+            println(back)
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/83/stages/462/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 15 Aug 2021 06:48:43 UTC
+record: 6

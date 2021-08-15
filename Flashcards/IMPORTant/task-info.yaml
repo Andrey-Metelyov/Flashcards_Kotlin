@@ -638,6 +638,26 @@ files:
     \   \"London\",\n                \"Abuja\",\n                \"Berlin\"\n    \
     \    );\n    }\n    \n}\n"
   learner_created: false
+- name: src/flashcards/Card.kt
+  visible: true
+  text: |-
+    package flashcards
+
+    import java.io.Serializable
+
+    data class Card(val front: String, val back: String, var mistakes: Int = 0): Serializable {
+        fun print() {
+            println("Card:")
+            println(front)
+            println("Definition:")
+            println(back)
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/83/stages/463/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Sun, 15 Aug 2021 07:00:07 UTC
 record: -1

@@ -19,13 +19,13 @@ stages:
   is_completed: true
 - id: 461
   step: 7490
-  is_completed: false
+  is_completed: true
 - id: 462
   step: 7491
-  is_completed: false
+  is_completed: true
 - id: 463
   step: 7492
-  is_completed: false
+  is_completed: true
 topics:
   0:
   - title: Introduction to Kotlin

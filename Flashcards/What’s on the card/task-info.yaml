@@ -65,6 +65,23 @@ files:
     );\n        }\n        \n        return CheckResult.correct();\n        \n   \
     \ }\n    \n}\n"
   learner_created: false
+- name: src/flashcards/Card.kt
+  visible: true
+  text: |-
+    package flashcards
+
+    data class Card(val front: String, val back: String) {
+        fun print() {
+            println("Card:")
+            println(front)
+            println("Definition:")
+            println(back)
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/83/stages/458/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 15 Aug 2021 05:10:32 UTC
+record: 2
